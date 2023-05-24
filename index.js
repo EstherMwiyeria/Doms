@@ -21,6 +21,6 @@ document.getElementById("fruList").appendChild(li)
 
 // Add one more vegetable to the vegetables
 // list
-// let li = document.createElement("li")
-// li.innerHTML = "Capsicles";
-// document.getElementById("vegList").appendChild(li)
+let newVeggies = document.createElement("li")
+newVeggies.innerHTML = "Capsicles";
+document.getElementById("vegList").appendChild(newVeggies);
